@@ -1,0 +1,150 @@
+/* PROVIDED STYLES... DO NOT EDIT */
+
+/* Defaults */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif, Helvetica;
+	margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+}
+
+/* ? */
+input[type="checkbox"] {
+	-webkit-appearance: checkbox;
+}
+
+.instructions-container {
+	margin: 20px auto;
+	max-width: 800px;
+}
+
+.instruction-list > li {
+	margin-bottom: 120px;
+}
+
+.instruction-text {
+	color: #369;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.instruction-answer {
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+
+/* Data table styling */
+
+.datatable {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.datatable td {
+	text-align: left;
+}
+
+.datatable tr {
+	height: 50px;
+	border-top: #C0C0C0 solid 1px;
+}
+
+.datatable li {
+	width: 25%;
+}
+
+/* Stats table styling */
+
+.statstable {
+	border-collapse: collapse;
+	width: 40%;
+}
+
+.statstable td {
+	text-align: center;
+	font: Helvetica;
+}
+
+.statstable tr {
+	height: 80px;
+	border-top: #C0C0C0 solid 1px;
+	border-bottom: #C0C0C0 solid 1px;
+}
+
+.statstable th {
+	font-weight: strong;
+}
+
+/* For the row text styling */
+
+.number {
+	font-size: 30px;
+}
+
+.label {
+	font-size: 10px;
+	color: #787878 ;
+}
+
+/* Bar chart */
+
+.barchart {
+	width: 100%;
+}
+
+.barchart th {
+	width: 150px;
+	text-align: right;
+}
+
+.barchart td {
+	padding-left: 20px;
+}
+
+.blue {
+	background-color: #0066CC;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+/* Lightbox */
+
+.inside {
+	padding: 20px;
+	margin: auto;
+	width: 400px;
+	background-color: #ffffff;
+}
+
+.inside h3 {
+	font-size: 18px;
+	font-weight: strong;
+}
+
+.button {
+	width: 100%;
+	vertical-align: right;
+}
+
+.button a {
+	background: #FF0066;
+	padding: 10px;
+	vertical-align: right;
+}
+
+.outside {
+	background-color: #484848;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
