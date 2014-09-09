@@ -117,13 +117,28 @@ input[type="checkbox"] {
 	padding-left: 10px;
 }
 
-/* Lightbox */
+/* Lightbox - Commented out to turn this off! */  
+
+/*
+.outside {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+
 
 .inside {
 	padding: 20px;
 	margin: auto;
 	width: 400px;
 	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 10px;  This creates the rounded corners  
 }
 
 .inside h3 {
@@ -132,19 +147,56 @@ input[type="checkbox"] {
 }
 
 .button {
+	text-align: right;
 	width: 100%;
-	vertical-align: right;
 }
 
 .button a {
 	background: #FF0066;
+	border: 1px solid #FF0066;    Must have a border to create rounded corners
+	border-radius: 10px;      This creates the rounded corners
 	padding: 10px;
-	vertical-align: right;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
 }
 
-.outside {
-	background-color: #484848;
-	padding-top: 100px;
-	padding-bottom: 100px;
+/*Media Block*/
+
+.floatleft {
+	float: left;
+	margin: 0px 10px 0px 0px;
+	display: inline-block;
 }
+
+.floatleft p {
+	display: block;
+	width: 650px;
+}
+
+.subset {
+	display: inline-block;
+	float: left;
+}
+
+.subset p {
+	margin-left: 40px;
+	width: 600px;
+}
+
+.subset img {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
